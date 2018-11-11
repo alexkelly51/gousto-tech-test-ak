@@ -15,7 +15,7 @@ using the ```create-react app```
 
   3. Understand the toggle function so can un-bold categories and items if I click on them again, rather than using id to assign the active class
 
-  4. Use JS to hode/ show the item descriptions rather than hacking this with css
+  4. Use JS to hide/ show the item descriptions rather than hacking this with css
 
   5. Building the tests for the app - I know these should be built first, but as this is a new language for me I wanted to crack on with learning and building before tackling learning about testing.
 
