@@ -1,13 +1,13 @@
-I started by using the create-react app
+## I started by using the ```create-react app```
 
-I then added in
+## I then added in
  - ```axios``` for the api call
  - ```lodash``` to use some of their functions
  - ```react-flexbox-grid``` to get the categories to flow on to more than one row
 
 
 
- I still need to work on:
+ ## I still need to work on:
   1. Loading the item list for each category into separate routes based on id so the back and forward browser buttons work
 
   2. Adding in the search box to filter the items
@@ -20,6 +20,6 @@ I then added in
 
   :+1:
 
-  To build in development use
+## To build in development use
 
 ```yarn install``` and then ```yarn start``` to open in localhost:3000
