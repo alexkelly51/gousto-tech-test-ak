@@ -1,32 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
   flex-direction: column;
+}
+
+.store {
+
+}
+
+.titles {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.titles h1 {
+  color: #F6323D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titles img {
+  height: 57px;
+  padding-top: 12px;
+}
+
+h2 {
+  padding-left: 8px;
+  color: #505050;
+}
+
+.category_item {
+  margin: 10px;
+  width: 76px;
+  margin-left: 0px;
+}
+
+.text_bold {
+  text-decoration: none;
+  font-weight: bold;
+  color: #F6323D;
+  font-size: 18px;
+}
+
+.text_normal {
+  text-decoration: none;
+  color: #505050;
+  font-size: 18px;
+}
+
+.items_list {
+  padding-left: 8px;
+}
+
+.item_container p {
+  margin-bottom: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.bold{
+  font-weight: bold;
+  color: #F6323D;
+}
+
+.not_bold {
+  color: #101010;
+}
+
+.show {
+  font-style: italic;
+  text-align: left;
 }
