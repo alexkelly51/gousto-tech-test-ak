@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import React from 'react';
-import axios from 'axios';
 import ItemDescription from './ItemDescription'
 
 let ItemList = ({items, onSelectItem, selectedCategory, itemActivate, selectedItem}) => {

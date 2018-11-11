@@ -1,6 +1,5 @@
-import _ from 'lodash';
 import React from 'react';
-import axios from 'axios';
+
 
 
 let ItemDescription = ({id, title, description, onSelect, active, headerActive}) => (
