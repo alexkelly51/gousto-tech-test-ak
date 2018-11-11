@@ -1,9 +1,9 @@
 I started by using the create-react app
 
 I then added in
- axios for the api call
- lodash
- react-flexbox-grid to get the categories to flow on to more than one row
+ - ```axios``` for the api call
+ - ```lodash``` to use some of their functions
+ - ```react-flexbox-grid``` to get the categories to flow on to more than one row
 
 
 
@@ -18,6 +18,8 @@ I then added in
 
   5. Building the tests for the app - I know these should be built first, but as this is a new language for me I wanted to crack on with learning and building before tackling learning about testing.
 
+  :+1:
+
   To build in development use
 
-  yarn install and then yarn start to open in localhost:3000
+```yarn install``` and then ```yarn start``` to open in localhost:3000
