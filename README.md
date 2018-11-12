@@ -7,6 +7,17 @@ using the ```create-react app```
  - ```react-flexbox-grid``` to get the categories to flow on to more than one row
 
 
+ ## The setup
+ I used the app component to pull in the api data with axios and render the title and pass data to the other components.
+
+ I built a component to display the categories and change the className of the active category.
+
+The other component is to display the items associated with the selected category or a 'no items' message when there are no items.
+
+Then there is a final component which shows the description of an item when it is selected.
+
+I added a little bit of formatting in css and the gousto logo.
+
 
  ## I still need to work on:
   1. Loading the item list for each category into separate routes based on id so the back and forward browser buttons work

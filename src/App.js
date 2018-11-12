@@ -49,11 +49,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { categories, items, selectedCategoryId, selectedItemId, active, itemActive} = this.state;
-    const defaultCategory = _.first(categories);
-    const selectedCategory = _.find(categories, i => i.id === selectedCategoryId) || defaultCategory;
-    const defaultItem = _.first(items);
-    const selectedItem = _.find(items, i => i.id === selectedItemId) || defaultItem;
+    const { categories, items, selectedCategoryId, selectedItemId} = this.state;
 
     return (
       <div className="wrapper">
@@ -62,7 +58,7 @@ class App extends React.Component {
             <img src="./gousto_text_logo.png" alt="Gousto" />
             <h1> Store Cupboard</h1>
           </div>
-            <h2>Click on a category</h2>
+            <h2>Click on a category:</h2>
             <CategoryDisplay categories={categories} items={items} onSelectCategory={this.onSelectCategory} selectedCategory={selectedCategoryId}/>
             <ItemList items={items} onSelectItem={this.onSelectItem}
             selectedCategory={selectedCategoryId} selectedItem={selectedItemId} />

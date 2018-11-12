@@ -15,16 +15,15 @@ let ItemList = ({items, onSelectItem, selectedCategory, itemActivate, selectedIt
         <div>
           {currentItems.map(item => (
             <ItemDescription
-            key={item.id}
-            id={item.id}
-            title={item.title}
-            description={item.description}
-            onSelect={() => onSelectItem(item.id)}
-            active={selectedItem === item.id ? "show" : "hide"}
-            headerActive={selectedItem === item.id ? "bold" : "not_bold"}
-            />
-          ))
-      }
+              key={item.id}
+              id={item.id}
+              title={item.title}
+              description={item.description}
+              onSelect={() => onSelectItem(item.id)}
+              active={selectedItem === item.id ? "show" : "hide"}
+              headerActive={selectedItem === item.id ? "bold" : "not_bold"} />
+            ))
+          }
         </div>
       )}
     </div>
@@ -32,13 +31,3 @@ let ItemList = ({items, onSelectItem, selectedCategory, itemActivate, selectedIt
 };
 
 export default ItemList
-
-
-// let ItemDescriptionsTwo = ({id, title, description, onSelect, active, headerActive}) => (
-//   <div onClick={onSelect}>
-//     <div className="itemContainer">
-//       <p className={headerActive}>{title}</p>
-//     </div>
-//   <div className={active}>{description}</div>
-//   </div>
-// );
